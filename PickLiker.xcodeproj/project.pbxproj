@@ -13,6 +13,7 @@
 		5FBE50EC2A21098C00C4142C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE50EA2A21098C00C4142C /* Main.storyboard */; };
 		5FBE50EE2A21099100C4142C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE50ED2A21099100C4142C /* Assets.xcassets */; };
 		5FBE50F12A21099100C4142C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBE50EF2A21099100C4142C /* LaunchScreen.storyboard */; };
+		5FBE50F92A210E6800C4142C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE50F82A210E6800C4142C /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5FBE50ED2A21099100C4142C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FBE50F02A21099100C4142C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FBE50F22A21099100C4142C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBE50F82A210E6800C4142C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5FBE50ED2A21099100C4142C /* Assets.xcassets */,
 				5FBE50EF2A21099100C4142C /* LaunchScreen.storyboard */,
 				5FBE50F22A21099100C4142C /* Info.plist */,
+				5FBE50F82A210E6800C4142C /* ImageLoader.swift */,
 			);
 			path = PickLiker;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				5FBE50E92A21098C00C4142C /* ViewController.swift in Sources */,
 				5FBE50E52A21098C00C4142C /* AppDelegate.swift in Sources */,
+				5FBE50F92A210E6800C4142C /* ImageLoader.swift in Sources */,
 				5FBE50E72A21098C00C4142C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +158,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		5FBE50EF2A21099100C4142C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
